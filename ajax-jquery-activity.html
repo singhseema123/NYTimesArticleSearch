@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NY Times Search</title>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <h1>New York Times Search </h1>
+    </header>
+    <div>
+
+        <div id="container">
+          <p><label for="Searchterm">Search Term</label></p>
+          <p><input type="text" id="searchterm" name="searchterm"></p>                      
+          <p><label for="Numrecords">Number of Records</label></p>
+          <p><input type="text" id="numrecords" name="numrecords"></p>                
+          <p><label for="Startyear">Start Year</label></p>
+          <p><input type="text" id="startyear" name="startyear"></p>
+          <p><label for="EndYear">End Year</label></p>
+          <p><input type="text" id="endyear" name="endyear"></p>
+          <p><button id="Search">Search</button></p>       
+          <p><button id="Clear">Clear</button></p>                 
+        </div>
+        <div id="content">
+          <!-- This is where search records go -->
+        </div>
+            
+     </div>
+    
+    
+    <script src="app.js"></script>  
+</body>
+</html>
